@@ -1,0 +1,3 @@
+CREATE VIEW vMK
+AS
+SELECT * FROM matakuliah;

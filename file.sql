@@ -1,0 +1,12 @@
+USE kampus;
+
+DROP PROCEDURE IF EXISTS getMahasiswa;
+
+DELIMITER //
+
+CREATE PROCEDURE getMahasiswa()
+BEGIN
+    SELECT * FROM mhs;
+END //
+
+DELIMITER ;
